@@ -4,6 +4,7 @@ const Child = (props) => {
   return (
     <div>
       <button
+        className="model-close"
         onClick={() => {
           props.setShowModal(false);
         }}

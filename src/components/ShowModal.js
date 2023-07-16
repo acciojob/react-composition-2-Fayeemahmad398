@@ -3,7 +3,7 @@ import Child from "./Child";
 const ShowModal = (props) => {
   console.log(props.value.show);
   return (
-    <div>
+    <div className="model-overlay">
       <button
         onClick={() => {
           props.value.setShowModal(true);
